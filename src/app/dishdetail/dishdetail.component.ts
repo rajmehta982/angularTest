@@ -10,7 +10,7 @@ import { Component, OnInit,Input } from '@angular/core';
 export class DishdetailComponent implements OnInit {
 
   @Input()
-  dish: DISH ;
+  dish;
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-import { Comment } from './comment.ts'
+import { Comment } from './comment'
 
 export class Dish{
   id: string;
