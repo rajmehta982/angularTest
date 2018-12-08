@@ -18,7 +18,7 @@ export class AboutComponent implements OnInit {
 
 
      this.leaderService.getLeaders()
-    .then(leader => this.leader = leader);
+    .subscribe(leader => this.leader = leader);
 
   }
 
