@@ -1,4 +1,4 @@
-import { Component, OnInit,Input, ViewChild } from '@angular/core';
+import { Component, OnInit,Input, ViewChild, Inject } from '@angular/core';
 import { Dish } from '../shared/dish';
 import { Params, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
@@ -6,6 +6,7 @@ import { DishService } from '../services/dish.service';
 import { switchMap } from 'rxjs/operators';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { Comment } from '../shared/comment';
+
 
 @Component({
   selector: 'app-dishdetail',
@@ -18,6 +19,7 @@ export class DishdetailComponent implements OnInit {
   commentForm : FormGroup ;
   comment : Comment;
   @ViewChild('fform') commentFormDirective;
+  dishcopy: Dish;
 
   formErrors = {
     'author': '',
@@ -38,7 +40,7 @@ export class DishdetailComponent implements OnInit {
 
   };
 
-
+  errMess: string;
   dish:Dish;
   dishIds: string[];
   prev: string;
@@ -46,7 +48,7 @@ export class DishdetailComponent implements OnInit {
 
   constructor(private dishService: DishService,
      private location:Location,
-   private route: ActivatedRoute,private fb : FormBuilder) {
+   private route: ActivatedRoute,private fb : FormBuilder, @Inject('BaseURL') private BaseURL) {
      this.createForm();
     }
 
@@ -56,7 +58,8 @@ export class DishdetailComponent implements OnInit {
 
     this.route.params
     .pipe(switchMap((params: Params) => this.dishService.getDish(params['id'])))
-    .subscribe(dish => { this.dish = dish; this.setPrevNext(dish.id); });
+    .subscribe(dish => { this.dish = dish; this.dishcopy= dish; this.setPrevNext(dish.id); },
+    errmess => this.errMess = <any>errmess);
   }
 
   createForm(){
@@ -106,7 +109,14 @@ export class DishdetailComponent implements OnInit {
     console.log(this.comment);
 
 
-    this.dish.comments.push(this.comment);
+    this.dishcopy.comments.push(this.comment);
+    this.dishService.putDish(this.dishcopy)
+      .subscribe(dish => {
+        this.dish = dish; this.dishcopy = dish;
+      },
+      errmess => {this.dish = null; this.dishcopy = null; this.errMess = <any>errmess;});
+
+      
     
 
 
