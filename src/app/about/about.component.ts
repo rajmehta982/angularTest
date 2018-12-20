@@ -17,6 +17,8 @@ import { expand } from '../animations/app.animation';
 })
 export class AboutComponent implements OnInit {
 
+  dishErrMess : string;
+
  leader: Leader[];
   constructor(private leaderService : LeaderService, @Inject('BaseURL') private BaseURL) { }
 
@@ -24,7 +26,8 @@ export class AboutComponent implements OnInit {
 
 
      this.leaderService.getLeaders()
-    .subscribe(leader => this.leader = leader);
+    .subscribe(leader => this.leader = leader,
+      errmess => this.dishErrMess = <any>errmess);
 
   }
 
