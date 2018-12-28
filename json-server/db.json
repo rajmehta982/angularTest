@@ -1,0 +1,605 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Uthappizza",
+      "image": "images/uthappizza.png",
+      "category": "mains",
+      "label": "Hot",
+      "price": "4.99",
+      "featured": "true",
+      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Eat it, just eat it!",
+          "author": "Michael Jaikishan",
+          "date": "2015-02-13T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        },
+        {
+          "author": "Raj",
+          "comment": "nice",
+          "rating": 4,
+          "date": "2018-12-18T16:08:38.739Z"
+        },
+        {
+          "author": "sjakksj",
+          "comment": "ajskjakjsjakj",
+          "rating": 4,
+          "date": "2018-12-20T09:29:10.863Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Zucchipakoda",
+      "image": "images/zucchipakoda.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "1.99",
+      "featured": "false",
+      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Eat it, just eat it!",
+          "author": "Michael Jaikishan",
+          "date": "2015-02-13T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vadonut",
+      "image": "images/vadonut.png",
+      "category": "appetizer",
+      "label": "New",
+      "price": "1.99",
+      "featured": "false",
+      "description": "A quintessential ConFusion experience, is it a vada or is it a donut?",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Eat it, just eat it!",
+          "author": "Michael Jaikishan",
+          "date": "2015-02-13T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ElaiCheese Cake",
+      "image": "images/elaicheesecake.png",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": "false",
+      "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Eat it, just eat it!",
+          "author": "Michael Jaikishan",
+          "date": "2015-02-13T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "featured": "true",
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/alberto.png",
+      "designation": "Chief Epicurious Officer",
+      "abbr": "CEO",
+      "featured": "false",
+      "description": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/alberto.png",
+      "designation": "Chief Food Officer",
+      "abbr": "CFO",
+      "featured": "false",
+      "description": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    },
+    {
+      "id": 2,
+      "name": "Agumbe Tang",
+      "image": "images/alberto.png",
+      "designation": "Chief Taste Officer",
+      "abbr": "CTO",
+      "featured": "false",
+      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+    },
+    {
+      "id": 3,
+      "name": "Alberto Somayya",
+      "image": "images/alberto.png",
+      "designation": "Executive Chef",
+      "abbr": "EC",
+      "featured": "true",
+      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "0839283929389",
+      "email": "rajmehta982@gmail.com",
+      "agree": true,
+      "contactType": "Tel",
+      "message": "asakjskajosjao",
+      "id": 1
+    },
+    {
+      "firstname": "ashjka",
+      "lastname": "aksj",
+      "telnum": "82891281",
+      "email": "skahsk@aksk.sj",
+      "agree": true,
+      "contactType": "None",
+      "message": "",
+      "id": 2
+    },
+    {
+      "firstname": "sas",
+      "lastname": "kask",
+      "telnum": "2121829",
+      "email": "kdfk@kd.ss",
+      "agree": false,
+      "contactType": "None",
+      "message": "asasas",
+      "id": 3
+    },
+    {
+      "firstname": "nkskakaskaks",
+      "lastname": "djfbjd",
+      "telnum": "973473",
+      "email": "rk@ash.ni",
+      "agree": false,
+      "contactType": "None",
+      "message": "yp",
+      "id": 4
+    },
+    {
+      "firstname": "rohan",
+      "lastname": "patil",
+      "telnum": "123456789",
+      "email": "rohanpatil@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "help",
+      "id": 5
+    },
+    {
+      "firstname": "chirag",
+      "lastname": "mehta",
+      "telnum": "02892832893",
+      "email": "chiragmehta@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "yeah mate",
+      "id": 6
+    },
+    {
+      "firstname": "yu",
+      "lastname": "mi",
+      "telnum": "45",
+      "email": "sajsk@jk.ja",
+      "agree": false,
+      "contactType": "None",
+      "message": "help",
+      "id": 7
+    },
+    {
+      "firstname": "mlsamk",
+      "lastname": "mdfkdm",
+      "telnum": "0555",
+      "email": "ajskajs@jjl.jj",
+      "agree": false,
+      "contactType": "None",
+      "message": "yem",
+      "id": 8
+    },
+    {
+      "firstname": "kartik",
+      "lastname": "lande",
+      "telnum": "84938438949",
+      "email": "kartiklande@gmial.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "test comment",
+      "id": 9
+    },
+    {
+      "firstname": "this",
+      "lastname": "time",
+      "telnum": "20102812080",
+      "email": "it@gotta.in",
+      "agree": false,
+      "contactType": "None",
+      "message": "work",
+      "id": 10
+    },
+    {
+      "firstname": "if ",
+      "lastname": "it ",
+      "telnum": "21728",
+      "email": "help@help.in",
+      "agree": false,
+      "contactType": "None",
+      "message": "yeah ",
+      "id": 11
+    },
+    {
+      "firstname": "kasjkja",
+      "lastname": "kskdns",
+      "telnum": "239898",
+      "email": "kjskaj@jsal.js",
+      "agree": false,
+      "contactType": "None",
+      "message": "not working",
+      "id": 12
+    },
+    {
+      "firstname": "raj",
+      "lastname": "mehta",
+      "telnum": "928392",
+      "email": "klsal@hash.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "sakjak",
+      "id": 13
+    },
+    {
+      "firstname": "aksasm",
+      "lastname": "yiiy",
+      "telnum": "0999999",
+      "email": "nope@nope",
+      "agree": false,
+      "contactType": "None",
+      "message": "",
+      "id": 14
+    },
+    {
+      "firstname": "ksjakl",
+      "lastname": "jkjk",
+      "telnum": "08888",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "hat",
+      "id": 15
+    },
+    {
+      "firstname": "lajsa",
+      "lastname": "smdhk",
+      "telnum": "098",
+      "email": "abc@bak.in",
+      "agree": false,
+      "contactType": "None",
+      "message": "akskj",
+      "id": 16
+    },
+    {
+      "firstname": "aksjkas",
+      "lastname": "djfhkj",
+      "telnum": "09999",
+      "email": "rajmeha@hh.i",
+      "agree": false,
+      "contactType": "None",
+      "message": "akjskakal",
+      "id": 17
+    },
+    {
+      "firstname": "asjka",
+      "lastname": "klakj",
+      "telnum": "999",
+      "email": "ii@aa.ii",
+      "agree": false,
+      "contactType": "None",
+      "message": "skjaklsj",
+      "id": 18
+    },
+    {
+      "firstname": "asjkajs",
+      "lastname": "sdjs",
+      "telnum": "99",
+      "email": "shjaok@akhskha.com",
+      "agree": null,
+      "contactType": null,
+      "message": "kaljdksjakj",
+      "id": 19
+    },
+    {
+      "firstname": "asjklas",
+      "lastname": "788712",
+      "telnum": "099",
+      "email": "abc@yhd.in",
+      "agree": false,
+      "contactType": "None",
+      "message": "kajskl",
+      "id": 20
+    },
+    {
+      "firstname": "aa",
+      "lastname": "aa",
+      "telnum": "099",
+      "email": "jhjh@ss.in",
+      "agree": false,
+      "contactType": "None",
+      "message": "uuuu",
+      "id": 21
+    },
+    {
+      "firstname": "sa",
+      "lastname": "fsd",
+      "telnum": "0555",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "nope",
+      "id": 22
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "066",
+      "email": "fd@rf.ki",
+      "agree": false,
+      "contactType": "None",
+      "message": "dfd",
+      "id": 23
+    },
+    {
+      "firstname": "asjkal",
+      "lastname": "shha",
+      "telnum": "888",
+      "email": "uiu@ask.sja",
+      "agree": null,
+      "contactType": null,
+      "message": "mskalk",
+      "id": 24
+    },
+    {
+      "firstname": "sankl",
+      "lastname": "ssjd121",
+      "telnum": "0121",
+      "email": "aa@aa.aa",
+      "agree": false,
+      "contactType": "None",
+      "message": "ahsk",
+      "id": 25
+    },
+    {
+      "firstname": "sahjsk",
+      "lastname": "asbjk",
+      "telnum": "088",
+      "email": "ashh@askja.co",
+      "agree": false,
+      "contactType": "None",
+      "message": "shahso",
+      "id": 26
+    },
+    {
+      "firstname": "saksl",
+      "lastname": "ska",
+      "telnum": "088",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "askla",
+      "id": 27
+    },
+    {
+      "firstname": "snamsn",
+      "lastname": "ksak",
+      "telnum": "999",
+      "email": "sklakl@ash.cio",
+      "agree": false,
+      "contactType": "None",
+      "message": "asj",
+      "id": 28
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "0999999",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "uuu",
+      "id": 29
+    },
+    {
+      "firstname": "jkbk",
+      "lastname": "jjk",
+      "telnum": "0888",
+      "email": "hhh@fg.inh",
+      "agree": false,
+      "contactType": "None",
+      "message": "hjkjkj",
+      "id": 30
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "088",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "nknask",
+      "id": 31
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "09999",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "jksajl",
+      "id": 32
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "0888",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "xxz",
+      "id": 33
+    },
+    {
+      "firstname": "rknkea",
+      "lastname": "sasnkl",
+      "telnum": "999",
+      "email": "rajmehta982@gmail.com",
+      "agree": null,
+      "contactType": null,
+      "message": "kjskajksjlaklsa",
+      "id": 34
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "09999",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "ksakskak",
+      "id": 35
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "0999",
+      "email": "rajmehta982@gmail.com",
+      "agree": false,
+      "contactType": "None",
+      "message": "kasnka",
+      "id": 36
+    },
+    {
+      "firstname": "Raj",
+      "lastname": "Mehta",
+      "telnum": "2345673333",
+      "email": "2gsfgsgkjlksjsfsgksjg2@gam.com",
+      "agree": true,
+      "contactType": "Tel",
+      "message": "kbhi bhi call kr bhai apna hi ghar smz",
+      "id": 37
+    }
+  ]
+}
